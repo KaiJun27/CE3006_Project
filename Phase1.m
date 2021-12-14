@@ -12,7 +12,7 @@ for i = 1:11
 end
 
 plot(SNR, error)
-title("plot of errorRate against dBSNR")
+title("SNR vs ErrorRate")
 xlabel("dBSNR");
 ylabel("errorRate");
 grid on
